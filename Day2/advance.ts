@@ -106,4 +106,13 @@ function placeOrder(order:number,callback:chill):void
 placeOrder(10,(amount)=>{
     console.log(amount);
 })
-//30 minute done.....
+//rest parameter
+function total(...arr:number[])
+{
+   let ans=0;
+   arr.forEach((val)=>{
+    ans+=val;
+   });
+   console.log(ans);
+}
+total(1,2,3,4,3,2,1,56,765);

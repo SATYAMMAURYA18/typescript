@@ -116,3 +116,19 @@ function total(...arr:number[])
    console.log(ans);
 }
 total(1,2,3,4,3,2,1,56,765);
+
+//extend keyword or inheritance
+interface human{
+    name:string,
+    age:number
+};
+interface Teacher extends human{
+    salary:string,
+    id:number
+}
+const obj6:Teacher={
+    salary:"Chillar",
+    id:1234,
+    name:"Rohit",
+    age:30
+}

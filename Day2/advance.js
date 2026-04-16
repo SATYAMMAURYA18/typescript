@@ -80,4 +80,11 @@ function total(...arr) {
     console.log(ans);
 }
 total(1, 2, 3, 4, 3, 2, 1, 56, 765);
+;
+const obj6 = {
+    salary: "Chillar",
+    id: 1234,
+    name: "Rohit",
+    age: 30
+};
 //# sourceMappingURL=advance.js.map
